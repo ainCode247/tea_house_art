@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <!-- font awsome cdn -->
     <script src="https://kit.fontawesome.com/ee0667e42f.js" crossorigin="anonymous"></script>
+    <!-- tailwind-css -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -26,7 +27,39 @@
 </head>
 
 <body>
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+        <header class="flex pt-10 mb-20">
+            <!-- text-contant -->
+             <div>
+                <h1 class="font-Manrope font-bold text-5xl md:text-7xl lg:text-10xl ">It's good <br>tea time at The <br> Tea House</h1>
+                <br>
+                <p class="text-gray-600 w-3/4">Tea and Botanical Solutions Supplier Give Optimum  Satisfaction To Your TasteBuds.</p>
+                <br>
+                <button class="px-6 py-2 rounded-lg text-white font-bold bg-gradient-to-r from-orange-500 to-red-500">
+                    Explore More 
+                    <i class="fa-solid fa-arrow-right text-xl -rotate-45"></i>
+                </button>
+             </div>
+             <!-- image_contant -->
+              <div class="relative md:relative lg:relative ">
+                <!-- image -->
+                <div>
+                    <img class="w-full" src="./images/banner.png" alt="">
+                </div>
+                <!-- Card -->
+                 <div class="flex bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg items-center absolute md:top-80 md:left-80 lg:left-8">
+                    <!-- Card-icon -->
+                     <div><i class="fa-solid fa-star text-4xl text-amber-500"></i></div>
+                     <!-- Card-text -->
+                     <div class="ml-2">
+                        <h2 class="text-4xl font-bold">5.00</h2>
+                        <p class="text-gray-600">Trust Pilot Ratings</p>
+                     </div>
+                 </div>
+              </div>
+        </header>
 
+    </main>
 </body>
 
 </html>
